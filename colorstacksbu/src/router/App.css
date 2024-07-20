@@ -1,0 +1,14 @@
+/* 
+list of colors used in colorstack.org:
+text-color-turquoise-dark
+background-color: #FDB532;
+color: #348e87;
+.button-secondary-dark.nav:hover {
+  background-color: FDB532 !important;
+}
+
+*/
+
+.app {
+  background-color: white;
+}
