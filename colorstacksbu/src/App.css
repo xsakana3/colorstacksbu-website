@@ -1,0 +1,107 @@
+/* 
+list of values used in colorstack.org:
+text-color-turquoise-dark
+background-color: #FDB532; orangeish color
+color: #348e87; light turquoise
+.button-secondary-dark.nav:hover {
+  background-color: FDB532 !important;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Nib pro, Georgia, sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+:root {
+    --beige: #f5f2ed;
+    --black: #282828;
+    --dark-blue: #091024;
+    --dark-grey: #616061;
+    --light-grey: #e0e0e0;
+    --white: white;
+    --yellow-brand: #fdb532;
+    --turquoise-brand: #3ca39b;
+    --turquoise-text: #348e87;
+    --light-blue: #c6d1ef;
+}
+
+*/
+
+/*
+SBU COLORS:
+bright red: #d52037
+red (regular): #990000
+dark red: #6b000d
+light grey: #bebebe
+grey: #828282
+dark grey: #4b4b4b
+*/
+.app {
+  width: 100%;
+}
+
+div {
+  overflow:hidden;
+  width: 100%;
+}
+
+.Header {
+  background-color: #091024;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80%;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  padding-top: 2rem;
+  display: flex;
+}
+
+.headerLogo {
+  padding-left: .5rem;
+  padding-right: 4rem;
+  width: 11rem;
+}
+
+.homeTopBanner {
+  background-color: #091024;
+  width: 100%;
+  color: white;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: flex-start;
+  height: 80%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 4rem;
+  display: flex;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Nib pro, Georgia, sans-serif;
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.homeMissionStatement {
+  background-color: white;
+}
+
+.missionStatement {
+  text-align: center;
+  padding: 4rem;
+  color: #091024;
+}
